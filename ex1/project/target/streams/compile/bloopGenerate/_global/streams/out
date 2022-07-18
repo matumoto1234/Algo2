@@ -1,0 +1,4 @@
+[debug] [ex1-build] Classpath dependencies List()
+[debug] [ex1-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'ex1-build' to '/home/matumoto/code_box/lecture/Algo2/ex1/project/.bloop/ex1-build.json'
+[success] Generated .bloop/ex1-build.json

@@ -1,0 +1,1524 @@
+2022.06.17 13:58:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/matumoto/code_box/lecture/Algo2/ex1/.metals/lsp.trace.json or /home/matumoto/.cache/metals/lsp.trace.json
+2022.06.17 13:58:08 INFO  logging to file /home/matumoto/code_box/lecture/Algo2/ex1/.metals/metals.log
+2022.06.17 13:58:08 INFO  Started: Metals version 0.11.6 in workspace '/home/matumoto/code_box/lecture/Algo2/ex1' for client Visual Studio Code 1.67.1.
+2022.06.17 13:58:08 INFO  time: initialize in 0.67s
+2022.06.17 13:58:09 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.17 13:58:09 WARN  Build server is not auto-connectable.
+2022.06.17 13:58:30 INFO  running '/usr/lib/jvm/java-8-openjdk/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3425492623771899183/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.17 13:58:30 WARN  no build target for: /home/matumoto/code_box/lecture/Algo2/ex1/project/metals.sbt
+2022.06.17 13:58:30 WARN  no build target for: /home/matumoto/code_box/lecture/Algo2/ex1/project/project/metals.sbt
+2022.06.17 13:58:30 INFO  skipping build import with status 'Started'
+2022.06.17 13:58:32 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_332)
+2022.06.17 13:58:32 INFO  no build target found for /home/matumoto/code_box/lecture/Algo2/ex1/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.17 13:58:37 INFO  [info] loading settings for project ex1-build-build from metals.sbt ...
+2022.06.17 13:58:38 INFO  [info] loading project definition from /home/matumoto/code_box/lecture/Algo2/ex1/project/project
+2022.06.17 13:58:44 INFO  [info] loading settings for project ex1-build from metals.sbt ...
+2022.06.17 13:58:44 INFO  [info] loading project definition from /home/matumoto/code_box/lecture/Algo2/ex1/project
+2022.06.17 13:58:51 INFO  [success] Generated .bloop/ex1-build.json
+2022.06.17 13:58:51 INFO  [success] Total time: 6 s, completed Jun 17, 2022 1:58:51 PM
+2022.06.17 13:58:51 INFO  [info] set current project to ex1 (in build file:/home/matumoto/code_box/lecture/Algo2/ex1/)
+2022.06.17 13:58:51 INFO  [success] Generated .bloop/ex1.json
+2022.06.17 13:58:51 INFO  [success] Generated .bloop/ex1-test.json
+2022.06.17 13:58:52 INFO  [success] Total time: 0 s, completed Jun 17, 2022 1:58:52 PM
+2022.06.17 13:58:52 INFO  time: ran 'sbt bloopInstall' in 22s
+2022.06.17 13:58:52 INFO  Attempting to connect to the build server...
+2022.06.17 13:58:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/matumoto/code_box/lecture/Algo2/ex1/.metals/bsp.trace.json or /home/matumoto/.cache/metals/bsp.trace.json
+2022.06.17 13:58:54 INFO  Attempting to connect to the build server...
+2022.06.17 13:58:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/matumoto/code_box/lecture/Algo2/ex1/project/.metals/bsp.trace.json or /home/matumoto/.cache/metals/bsp.trace.json
+2022.06.17 13:58:55 INFO  time: Connected to build server in 2.64s
+2022.06.17 13:58:55 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.17 13:58:55 INFO  time: Imported build in 0.1s
+2022.06.17 13:58:55 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk/src.zip, /usr/lib/jvm/java-8-openjdk/lib/src.zip, /usr/lib/jvm/java-8-openjdk/jre/src.zip, /usr/lib/jvm/java-8-openjdk/jre/lib/src.zip. Java symbols will not be available.
+2022.06.17 13:58:57 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk/src.zip, /usr/lib/jvm/java-8-openjdk/lib/src.zip, /usr/lib/jvm/java-8-openjdk/jre/src.zip, /usr/lib/jvm/java-8-openjdk/jre/lib/src.zip. Java symbols will not be available.
+2022.06.17 13:58:57 INFO  time: indexed workspace in 2.2s
+2022.06.17 14:01:56 INFO  shutting down Metals
+2022.06.17 14:01:56 INFO  Shut down connection with build server.
+2022.06.17 14:01:56 INFO  Shut down connection with build server.
+2022.06.17 14:02:02 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/matumoto/code_box/lecture/Algo2/ex1/.metals/lsp.trace.json or /home/matumoto/.cache/metals/lsp.trace.json
+2022.06.17 14:02:03 INFO  logging to file /home/matumoto/code_box/lecture/Algo2/ex1/.metals/metals.log
+2022.06.17 14:02:03 INFO  Started: Metals version 0.11.6 in workspace '/home/matumoto/code_box/lecture/Algo2/ex1' for client Visual Studio Code 1.67.1.
+2022.06.17 14:02:04 INFO  time: initialize in 0.75s
+2022.06.17 14:02:04 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.17 14:02:04 INFO  Attempting to connect to the build server...
+2022.06.17 14:02:04 INFO  skipping build import with status 'Installed'
+2022.06.17 14:02:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/matumoto/code_box/lecture/Algo2/ex1/.metals/bsp.trace.json or /home/matumoto/.cache/metals/bsp.trace.json
+2022.06.17 14:02:04 INFO  Attempting to connect to the build server...
+2022.06.17 14:02:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/matumoto/code_box/lecture/Algo2/ex1/project/.metals/bsp.trace.json or /home/matumoto/.cache/metals/bsp.trace.json
+2022.06.17 14:02:04 INFO  time: Connected to build server in 0.26s
+2022.06.17 14:02:04 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.17 14:02:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk/src.zip, /usr/lib/jvm/java-8-openjdk/lib/src.zip, /usr/lib/jvm/java-8-openjdk/jre/src.zip, /usr/lib/jvm/java-8-openjdk/jre/lib/src.zip. Java symbols will not be available.
+2022.06.17 14:02:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk/src.zip, /usr/lib/jvm/java-8-openjdk/lib/src.zip, /usr/lib/jvm/java-8-openjdk/jre/src.zip, /usr/lib/jvm/java-8-openjdk/jre/lib/src.zip. Java symbols will not be available.
+2022.06.17 14:02:06 INFO  time: indexed workspace in 1.53s
+Jun 17, 2022 2:03:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.17 14:03:52 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:03 INFO  Deduplicating compilation of ex1 from bsp client 'Metals 0.11.6' (since 1m 58.583s)
+2022.06.17 14:04:03 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:03 INFO  time: compiled ex1 in 0.64s
+2022.06.17 14:04:07 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:07 INFO  time: compiled ex1 in 0.21s
+2022.06.17 14:04:13 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:13 INFO  time: compiled ex1 in 0.16s
+2022.06.17 14:04:41 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:41 INFO  time: compiled ex1 in 96ms
+2022.06.17 14:04:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:48 INFO  time: compiled ex1 in 1.16s
+2022.06.17 14:04:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 14:04:50 INFO  time: compiled ex1 in 0.54s
+2022.06.17 15:07:20 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:20 INFO  time: compiled ex1 in 0.52s
+2022.06.17 15:07:24 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:24 INFO  time: compiled ex1 in 0.32s
+2022.06.17 15:07:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:27 INFO  time: compiled ex1 in 0.13s
+2022.06.17 15:07:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+Jun 17, 2022 3:07:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 161
+2022.06.17 15:07:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:32 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:32 INFO  time: compiled ex1 in 0.1s
+2022.06.17 15:07:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:33 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:33 INFO  time: compiled ex1 in 95ms
+2022.06.17 15:07:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:38 INFO  compiling ex1 (1 scala source)
+Jun 17, 2022 3:07:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 212
+2022.06.17 15:07:38 INFO  time: compiled ex1 in 0.18s
+2022.06.17 15:07:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:44 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:44 INFO  time: compiled ex1 in 85ms
+2022.06.17 15:07:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:50 INFO  time: compiled ex1 in 97ms
+2022.06.17 15:07:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:07:53 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:07:53 INFO  time: compiled ex1 in 0.88s
+2022.06.17 15:08:00 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:00 INFO  time: compiled ex1 in 0.55s
+Jun 17, 2022 3:08:35 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2022.06.17 15:08:36 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:36 INFO  time: compiled ex1 in 0.67s
+2022.06.17 15:08:37 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:37 INFO  time: compiled ex1 in 31ms
+2022.06.17 15:08:38 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:40 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:43 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:43 INFO  time: compiled ex1 in 73ms
+2022.06.17 15:08:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:45 INFO  time: compiled ex1 in 0.28s
+2022.06.17 15:08:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:47 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:47 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+Jun 17, 2022 3:08:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 465
+2022.06.17 15:08:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+Jun 17, 2022 3:08:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 495
+Jun 17, 2022 3:08:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 496
+2022.06.17 15:08:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:54 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:55 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:55 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:08:56 INFO  time: compiled ex1 in 1.01s
+2022.06.17 15:08:59 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:08:59 INFO  time: compiled ex1 in 0.53s
+2022.06.17 15:09:08 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:09:08 INFO  time: compiled ex1 in 0.58s
+Jun 17, 2022 3:09:11 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2022.06.17 15:09:12 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:09:12 INFO  time: compiled ex1 in 0.53s
+2022.06.17 15:09:14 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:09:14 INFO  time: compiled ex1 in 0.71s
+2022.06.17 15:09:17 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:09:17 INFO  time: compiled ex1 in 0.17s
+2022.06.17 15:09:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:09:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:09:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:09:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:09:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:09:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:09:22 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:09:22 INFO  time: compiled ex1 in 0.6s
+2022.06.17 15:09:51 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:09:51 INFO  time: compiled ex1 in 0.51s
+2022.06.17 15:10:01 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:01 INFO  time: compiled ex1 in 0.71s
+2022.06.17 15:10:02 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:02 INFO  time: compiled ex1 in 0.2s
+2022.06.17 15:10:13 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:13 INFO  time: compiled ex1 in 0.47s
+2022.06.17 15:10:15 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:15 INFO  time: compiled ex1 in 0.51s
+2022.06.17 15:10:28 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:28 INFO  time: compiled ex1 in 0.12s
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 75, 75, 90)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 75, 75, 83)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 75, 75, 84)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[String]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 75, 75, 88)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 75, 75, 89)
+2022.06.17 15:10:39 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:39 INFO  time: compiled ex1 in 1s
+2022.06.17 15:10:42 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:10:42 INFO  time: compiled ex1 in 0.66s
+2022.06.17 15:10:43 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:43 INFO  time: compiled ex1 in 0.2s
+2022.06.17 15:10:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:46 INFO  time: compiled ex1 in 0.71s
+2022.06.17 15:10:51 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:10:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 15:10:51 INFO  time: compiled ex1 in 0.71s
+2022.06.17 15:10:54 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:10:54 INFO  time: compiled ex1 in 0.54s
+2022.06.17 15:11:04 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:04 INFO  time: compiled ex1 in 0.57s
+2022.06.17 15:11:18 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:18 INFO  time: compiled ex1 in 0.52s
+2022.06.17 15:11:34 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:34 INFO  time: compiled ex1 in 97ms
+2022.06.17 15:11:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:38 INFO  time: compiled ex1 in 84ms
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 92)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 85)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 86)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 87)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 88)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 87)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Array[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 77, 77, 87)
+2022.06.17 15:11:43 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:43 INFO  time: compiled ex1 in 0.16s
+2022.06.17 15:11:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:45 INFO  time: compiled ex1 in 0.16s
+2022.06.17 15:11:51 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:51 INFO  time: compiled ex1 in 95ms
+2022.06.17 15:11:54 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:54 INFO  time: compiled ex1 in 94ms
+2022.06.17 15:11:58 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:11:58 INFO  time: compiled ex1 in 0.59s
+Jun 17, 2022 3:12:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1326
+2022.06.17 15:12:15 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:12:15 INFO  time: compiled ex1 in 92ms
+Jun 17, 2022 3:12:22 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2022.06.17 15:12:25 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:12:25 INFO  time: compiled ex1 in 93ms
+2022.06.17 15:12:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:12:38 INFO  time: compiled ex1 in 63ms
+2022.06.17 15:12:39 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:12:39 INFO  time: compiled ex1 in 99ms
+2022.06.17 15:12:42 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:12:42 INFO  time: compiled ex1 in 0.15s
+2022.06.17 15:12:47 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:12:47 INFO  time: compiled ex1 in 98ms
+2022.06.17 15:13:13 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:13:13 INFO  time: compiled ex1 in 95ms
+2022.06.17 15:13:37 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:13:37 INFO  time: compiled ex1 in 81ms
+2022.06.17 15:17:47 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:17:47 INFO  time: compiled ex1 in 0.11s
+2022.06.17 15:17:49 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:17:49 INFO  time: compiled ex1 in 0.16s
+2022.06.17 15:44:14 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:44:14 INFO  time: compiled ex1 in 0.16s
+2022.06.17 15:44:17 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:44:17 INFO  time: compiled ex1 in 0.17s
+2022.06.17 15:44:26 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:44:26 INFO  time: compiled ex1 in 0.64s
+2022.06.17 15:44:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:44:27 INFO  time: compiled ex1 in 0.14s
+2022.06.17 15:44:32 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:44:32 INFO  time: compiled ex1 in 53ms
+2022.06.17 15:44:35 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:44:35 INFO  time: compiled ex1 in 72ms
+2022.06.17 15:53:03 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:53:03 INFO  time: compiled ex1 in 0.58s
+2022.06.17 15:53:07 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:53:07 INFO  time: compiled ex1 in 0.48s
+2022.06.17 15:53:16 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:53:16 INFO  time: compiled ex1 in 97ms
+2022.06.17 15:59:36 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:59:36 INFO  time: compiled ex1 in 76ms
+2022.06.17 15:59:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:59:38 INFO  time: compiled ex1 in 74ms
+2022.06.17 15:59:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 15:59:45 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:03:18 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:03:18 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:03:49 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:03:49 INFO  time: compiled ex1 in 82ms
+2022.06.17 16:03:52 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:03:52 INFO  time: compiled ex1 in 0.9s
+2022.06.17 16:04:00 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:00 INFO  time: compiled ex1 in 60ms
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 207, 207, 223)
+2022.06.17 16:04:03 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:03 INFO  time: compiled ex1 in 64ms
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 207, 207, 216)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 207, 207, 217)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 207, 207, 218)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 207, 207, 219)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 207, 207, 218)
+2022.06.17 16:04:06 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:06 INFO  time: compiled ex1 in 0.8s
+2022.06.17 16:04:18 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:18 INFO  time: compiled ex1 in 69ms
+2022.06.17 16:04:23 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:23 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:04:25 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:25 INFO  time: compiled ex1 in 0.11s
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 273)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 266)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 267)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 268)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 269)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 270)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 271)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 270)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 269)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 268)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 257, 257, 269)
+2022.06.17 16:04:34 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:34 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:04:36 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:36 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:04:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:38 INFO  time: compiled ex1 in 95ms
+2022.06.17 16:04:43 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:04:43 INFO  time: compiled ex1 in 59ms
+2022.06.17 16:06:47 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:06:47 INFO  time: compiled ex1 in 0.16s
+2022.06.17 16:06:52 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:06:52 INFO  time: compiled ex1 in 98ms
+2022.06.17 16:07:00 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:07:00 INFO  time: compiled ex1 in 0.1s
+2022.06.17 16:07:06 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:07:06 INFO  time: compiled ex1 in 0.13s
+2022.06.17 16:07:08 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:07:08 INFO  time: compiled ex1 in 0.7s
+2022.06.17 16:07:24 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:07:24 INFO  time: compiled ex1 in 0.62s
+2022.06.17 16:08:15 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:15 INFO  time: compiled ex1 in 61ms
+2022.06.17 16:08:17 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:17 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:08:19 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:19 INFO  time: compiled ex1 in 0.1s
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 323, 323, 339)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 323, 323, 332)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 323, 323, 334)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 323, 323, 335)
+2022.06.17 16:08:28 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:28 INFO  time: compiled ex1 in 79ms
+2022.06.17 16:08:30 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:30 INFO  time: compiled ex1 in 60ms
+2022.06.17 16:08:36 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:36 INFO  time: compiled ex1 in 57ms
+2022.06.17 16:08:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:45 INFO  time: compiled ex1 in 0.13s
+2022.06.17 16:08:47 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:47 INFO  time: compiled ex1 in 0.15s
+2022.06.17 16:08:48 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:08:48 INFO  time: compiled ex1 in 0.64s
+2022.06.17 16:09:12 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:09:12 INFO  time: compiled ex1 in 0.12s
+2022.06.17 16:09:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:17 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:09:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:17 INFO  time: compiled ex1 in 0.13s
+2022.06.17 16:09:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:09:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:01 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:53 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:10:53 INFO  time: compiled ex1 in 0.1s
+2022.06.17 16:10:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:54 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 INFO  time: compiled ex1 in 0.17s
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:10:59 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:00 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:00 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:01 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:47 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:11:50 INFO  time: compiled ex1 in 93ms
+2022.06.17 16:11:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:51 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:11:51 INFO  time: compiled ex1 in 55ms
+2022.06.17 16:11:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:54 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:55 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:55 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:56 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:11:56 INFO  time: compiled ex1 in 96ms
+2022.06.17 16:11:56 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:58 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:11:59 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:00 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:12:00 INFO  time: compiled ex1 in 94ms
+2022.06.17 16:12:00 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:07 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:08 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:10 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 255, 255, 271)
+2022.06.17 16:12:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 255, 255, 264)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 255, 255, 266)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 255, 255, 267)
+2022.06.17 16:12:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 255, 255, 266)
+2022.06.17 16:12:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:12:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 255, 255, 266)
+2022.06.17 16:12:13 INFO  compiling ex1 (1 scala source)
+2022.06.17 16:12:13 INFO  time: compiled ex1 in 0.11s
+2022.06.17 16:12:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 16:14:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:25 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:25:25 INFO  time: compiled ex1 in 92ms
+2022.06.17 19:25:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:29 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:29 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:29 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:31 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+Jun 17, 2022 7:25:35 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 17, 2022 7:25:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:158)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:960)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:808)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2022.06.17 19:25:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:38 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:38 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:41 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:25:41 INFO  time: compiled ex1 in 0.18s
+2022.06.17 19:25:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:43 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:25:43 INFO  time: compiled ex1 in 0.14s
+2022.06.17 19:25:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:47 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:25:47 INFO  time: compiled ex1 in 0.17s
+2022.06.17 19:25:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:48 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:25:48 INFO  time: compiled ex1 in 72ms
+2022.06.17 19:25:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:25:59 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:26:19 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:26:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:26:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:26:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:26:22 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:26:22 INFO  time: compiled ex1 in 0.17s
+2022.06.17 19:26:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:29:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:29:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:29:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:29:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:29:54 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:29:54 INFO  time: compiled ex1 in 0.57s
+2022.06.17 19:29:56 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:29:56 INFO  time: compiled ex1 in 0.77s
+Jun 17, 2022 7:30:00 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 17, 2022 7:30:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:158)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:960)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:808)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2022.06.17 19:30:04 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:30:04 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:30:09 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:30:09 INFO  time: compiled ex1 in 0.37s
+2022.06.17 19:30:17 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:30:17 INFO  time: compiled ex1 in 0.17s
+2022.06.17 19:30:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:30:27 INFO  time: compiled ex1 in 65ms
+2022.06.17 19:30:29 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:30:29 INFO  time: compiled ex1 in 0.69s
+2022.06.17 19:38:31 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:38:31 INFO  time: compiled ex1 in 0.11s
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 227, 227, 243)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 227, 227, 236)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 227, 227, 237)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 227, 227, 239)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 227, 227, 238)
+2022.06.17 19:38:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:38:38 INFO  time: compiled ex1 in 0.66s
+2022.06.17 19:38:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:38:45 INFO  time: compiled ex1 in 0.21s
+2022.06.17 19:38:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:47 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:38:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:38:50 INFO  time: compiled ex1 in 0.76s
+2022.06.17 19:38:54 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:38:54 INFO  time: compiled ex1 in 0.93s
+2022.06.17 19:39:02 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:02 INFO  time: compiled ex1 in 0.12s
+2022.06.17 19:39:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:17 INFO  file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala:13:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: Vector[Int]
+    if (mid == 0)
+    ^
+2022.06.17 19:39:17 INFO  file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala:13:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: Vector[Int]
+    if (mid == 0)
+    ^
+2022.06.17 19:39:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:19 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 19:39:20 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:20 INFO  time: compiled ex1 in 0.66s
+2022.06.17 19:39:22 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:22 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:39:25 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:25 INFO  time: compiled ex1 in 0.63s
+2022.06.17 19:39:34 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:34 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:39:37 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:37 INFO  time: compiled ex1 in 0.13s
+2022.06.17 19:39:41 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:39:41 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:40:47 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:40:47 INFO  time: compiled ex1 in 66ms
+2022.06.17 19:40:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:40:50 INFO  time: compiled ex1 in 65ms
+2022.06.17 19:40:57 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:40:57 INFO  time: compiled ex1 in 0.15s
+2022.06.17 19:41:02 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:41:02 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:41:05 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:41:05 INFO  time: compiled ex1 in 0.1s
+2022.06.17 19:41:08 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:41:08 INFO  time: compiled ex1 in 0.12s
+2022.06.17 19:41:16 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:41:16 INFO  time: compiled ex1 in 0.14s
+2022.06.17 19:41:21 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:41:21 INFO  time: compiled ex1 in 0.66s
+2022.06.17 19:42:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:42:27 INFO  time: compiled ex1 in 0.1s
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 239)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 232)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 233)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 234)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 235)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 234)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 223, 223, 234)
+2022.06.17 19:42:29 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:42:29 INFO  time: compiled ex1 in 0.74s
+2022.06.17 19:42:35 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:42:35 INFO  time: compiled ex1 in 56ms
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 242, 242, 258)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 242, 242, 251)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 242, 242, 252)
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[<error>]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 242, 242, 254)
+2022.06.17 19:42:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:42:46 INFO  time: compiled ex1 in 0.1s
+2022.06.17 19:42:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:42:50 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:42:51 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:42:51 INFO  time: compiled ex1 in 0.1s
+2022.06.17 19:43:02 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:43:02 INFO  time: compiled ex1 in 0.15s
+2022.06.17 19:43:08 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:43:08 INFO  time: compiled ex1 in 0.73s
+2022.06.17 19:54:29 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:29 INFO  time: compiled ex1 in 0.12s
+2022.06.17 19:54:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:38 INFO  time: compiled ex1 in 0.14s
+2022.06.17 19:54:44 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:44 INFO  time: compiled ex1 in 0.18s
+2022.06.17 19:54:48 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:48 INFO  time: compiled ex1 in 86ms
+2022.06.17 19:54:52 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:52 INFO  time: compiled ex1 in 97ms
+2022.06.17 19:54:55 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:55 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:54:58 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:54:58 INFO  time: compiled ex1 in 0.14s
+2022.06.17 19:55:07 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:07 INFO  time: compiled ex1 in 0.11s
+2022.06.17 19:55:09 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:09 INFO  time: compiled ex1 in 0.16s
+2022.06.17 19:55:12 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:12 INFO  time: compiled ex1 in 0.27s
+2022.06.17 19:55:15 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:15 INFO  time: compiled ex1 in 0.13s
+2022.06.17 19:55:21 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:21 INFO  time: compiled ex1 in 0.14s
+2022.06.17 19:55:25 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:25 INFO  time: compiled ex1 in 0.16s
+2022.06.17 19:55:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:45 INFO  time: compiled ex1 in 0.12s
+2022.06.17 19:55:48 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:55:48 INFO  time: compiled ex1 in 0.12s
+2022.06.17 19:56:21 INFO  compiling ex1 (1 scala source)
+2022.06.17 19:56:21 INFO  time: compiled ex1 in 92ms
+2022.06.17 20:06:20 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:06:20 INFO  time: compiled ex1 in 0.15s
+2022.06.17 20:07:00 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:07:00 INFO  time: compiled ex1 in 0.13s
+2022.06.17 20:07:17 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:07:17 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:07:26 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:07:26 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:08:29 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:08:29 INFO  time: compiled ex1 in 0.72s
+2022.06.17 20:08:30 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:08:30 INFO  time: compiled ex1 in 31ms
+2022.06.17 20:08:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:08:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:08:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:08:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:08:43 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:08:43 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:08:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:13 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:13 INFO  time: compiled ex1 in 95ms
+2022.06.17 20:11:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:15 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:15 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:11:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:16 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:16 INFO  time: compiled ex1 in 98ms
+2022.06.17 20:11:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:21 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:21 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:11:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:29 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:29 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:30 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:30 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:11:31 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:37 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:37 INFO  time: compiled ex1 in 58ms
+2022.06.17 20:11:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:40 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:40 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:11:40 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:56 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:57 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:11:57 INFO  time: compiled ex1 in 99ms
+2022.06.17 20:11:57 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:59 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:59 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:11:59 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:01 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:02 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:02 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:12:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:08 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:10 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:12 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:12 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:12:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:22 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:22 INFO  time: compiled ex1 in 0.13s
+2022.06.17 20:12:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:27 INFO  time: compiled ex1 in 0.14s
+2022.06.17 20:12:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:31 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:31 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:32 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:32 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:12:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:38 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:12:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:40 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:42 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:42 INFO  time: compiled ex1 in 0.15s
+2022.06.17 20:12:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 INFO  time: compiled ex1 in 0.19s
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:48 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:49 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:49 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:12:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:51 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:53 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:54 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:12:55 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:12:55 INFO  time: compiled ex1 in 99ms
+2022.06.17 20:12:55 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:00 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:00 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:01 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:01 INFO  time: compiled ex1 in 57ms
+2022.06.17 20:13:01 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:03 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:03 INFO  time: compiled ex1 in 87ms
+2022.06.17 20:13:04 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:04 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:04 INFO  time: compiled ex1 in 22ms
+2022.06.17 20:13:05 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:06 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:07 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:07 INFO  time: compiled ex1 in 59ms
+2022.06.17 20:13:07 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:08 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:08 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:08 INFO  time: compiled ex1 in 53ms
+2022.06.17 20:13:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:10 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:12 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:12 INFO  time: compiled ex1 in 55ms
+2022.06.17 20:13:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:16 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:16 INFO  time: compiled ex1 in 70ms
+2022.06.17 20:13:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:13:36 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:13:36 INFO  time: compiled ex1 in 70ms
+2022.06.17 20:13:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:31 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:31 INFO  time: compiled ex1 in 58ms
+2022.06.17 20:14:31 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:31 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:36 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:36 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:14:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:38 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:39 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:39 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:14:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:45 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:14:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:46 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:14:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:49 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:50 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:50 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:14:50 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:52 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:14:53 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:14:53 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:14:54 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:10 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:11 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:12 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:12 INFO  time: compiled ex1 in 0.15s
+2022.06.17 20:28:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:14 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:14 INFO  time: compiled ex1 in 0.17s
+2022.06.17 20:28:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:16 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:16 INFO  time: compiled ex1 in 98ms
+2022.06.17 20:28:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+Jun 17, 2022 8:28:30 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2022.06.17 20:28:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:31 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:31 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:28:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 INFO  time: compiled ex1 in 0.18s
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:38 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:38 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:28:38 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:40 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:40 INFO  time: compiled ex1 in 55ms
+2022.06.17 20:28:40 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:42 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:42 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:28:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:28:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:28:46 INFO  time: compiled ex1 in 60ms
+2022.06.17 20:28:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:23 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:29:23 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:29:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:29:27 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:29:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:29 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:30 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:29:30 INFO  time: compiled ex1 in 66ms
+2022.06.17 20:29:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:55 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:56 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:29:56 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:09 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:09 INFO  time: compiled ex1 in 0.21s
+2022.06.17 20:32:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:12 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:19 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+Jun 17, 2022 8:32:22 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2022.06.17 20:32:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:24 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:24 INFO  time: compiled ex1 in 0.1s
+2022.06.17 20:32:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:28 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:28 INFO  time: compiled ex1 in 83ms
+2022.06.17 20:32:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:29 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:29 INFO  time: compiled ex1 in 0.16s
+2022.06.17 20:32:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:31 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:31 INFO  time: compiled ex1 in 76ms
+2022.06.17 20:32:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:32 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:33 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:34 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:35 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:35 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:35 INFO  time: compiled ex1 in 0.14s
+2022.06.17 20:32:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:36 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+something's wrong: no file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala in Vector[Int]RangePosition(file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala, 245, 245, 256)
+2022.06.17 20:32:37 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:38 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:39 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:40 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:41 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:41 INFO  time: compiled ex1 in 54ms
+2022.06.17 20:32:41 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:32:45 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:32:45 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:32:46 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:09 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:13 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:14 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:34:14 INFO  time: compiled ex1 in 76ms
+2022.06.17 20:34:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:15 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:34:15 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:34:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:18 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:19 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:25 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:28 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:34:28 INFO  time: compiled ex1 in 0.13s
+2022.06.17 20:34:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:34:29 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:34:29 INFO  time: compiled ex1 in 14ms
+2022.06.17 20:34:28 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:01 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:01 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:02 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:03 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:03 INFO  time: compiled ex1 in 60ms
+2022.06.17 20:35:03 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:03 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:04 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:04 INFO  time: compiled ex1 in 0.13s
+2022.06.17 20:35:05 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:05 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:06 INFO  file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala:15:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: Vector[Int]
+  }
+  ^
+2022.06.17 20:35:06 INFO  file:///home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala:15:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: Vector[Int]
+  }
+  ^
+2022.06.17 20:35:06 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:05 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:06 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:07 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:07 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:07 INFO  time: compiled ex1 in 0.17s
+2022.06.17 20:35:07 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:14 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:15 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:16 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:17 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:19 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:20 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:21 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:22 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:23 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:24 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:25 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:25 INFO  time: compiled ex1 in 0.11s
+2022.06.17 20:35:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:26 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:27 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:27 INFO  time: compiled ex1 in 0.12s
+2022.06.17 20:35:27 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:30 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:42 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:43 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:44 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:45 WARN  Could not load snapshot text for /home/matumoto/code_box/lecture/Algo2/ex1/src/main/scala/main.scala
+2022.06.17 20:35:46 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:46 INFO  time: compiled ex1 in 0.64s
+2022.06.17 20:35:51 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:35:51 INFO  time: compiled ex1 in 0.11s
+Jun 17, 2022 8:36:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Match$.internal$85(Trees.scala:125)
+	at scala.meta.Term$Match$.apply(Trees.scala:125)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$2(ScalametaParser.scala:1385)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:1385)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1581)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1445)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$2(ScalametaParser.scala:4220)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4072)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4220)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4202)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:508)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4202)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2247)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2249)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2246)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2243)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2048)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2019)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2017)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2001)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1556)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1445)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1327)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1355)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3468)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3430)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3375)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3214)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3193)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4148)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4142)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4133)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:508)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4133)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:231)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:227)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:3968)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3942)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3606)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3582)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3526)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4113)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4101)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4308)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4308)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4261)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:126)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:119)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:310)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jun 17, 2022 8:36:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Match$.internal$85(Trees.scala:125)
+	at scala.meta.Term$Match$.apply(Trees.scala:125)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$2(ScalametaParser.scala:1385)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:1385)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1581)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1445)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$2(ScalametaParser.scala:4220)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4072)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4220)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4202)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:508)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4202)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2247)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2249)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2246)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2243)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2048)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2019)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2017)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2001)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1556)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1445)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1327)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1355)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3468)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3430)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3375)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3214)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3193)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4148)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4142)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4133)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:508)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4133)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:231)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:227)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:3968)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3942)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3606)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3582)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3526)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4113)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4101)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4308)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4308)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4261)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:126)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:119)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:310)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.17 20:36:09 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:36:09 INFO  time: compiled ex1 in 61ms
+2022.06.17 20:36:56 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:36:56 INFO  time: compiled ex1 in 59ms
+2022.06.17 20:37:01 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:37:01 INFO  time: compiled ex1 in 52ms
+2022.06.17 20:37:03 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:37:03 INFO  time: compiled ex1 in 58ms
+2022.06.17 20:37:05 INFO  compiling ex1 (1 scala source)
+2022.06.17 20:37:05 INFO  time: compiled ex1 in 54ms
+2022.06.18 11:02:33 INFO  shutting down Metals
+2022.06.18 11:02:33 INFO  Shut down connection with build server.
+2022.06.18 11:02:33 INFO  Shut down connection with build server.

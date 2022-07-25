@@ -1,36 +1,20 @@
 package rand2
 
-import "math/big"
+func Rand2(n int) []int32 {
+	x := int32(1)
+	A := int32(48271)
+	M := int32(2147483647)
+	Q := M / A
+	R := M % A
+	rand_seq := make([]int32, 0, n)
 
-func Rand2(n int) []*big.Int {
-	x := big.NewInt(1)
-	a := big.NewInt(48271)
-	m := big.NewInt(2147483647)
-
-	q := big.NewInt(0)
-	q.Div(m, a)
-
-	r := big.NewInt(0)
-	r.Mod(m, a)
-
-	rand_seq := make([]*big.Int, 0)
 	for i := 1; i <= n; i++ {
-		// x = a*(x%q) - r*(x/q)
-		lhs := big.NewInt(0)
-		lhs.Mod(x, q)
-		lhs.Mul(lhs, a)
+		x = A*(x%Q) - R*(x/Q)
 
-		rhs := big.NewInt(0)
-		rhs.Div(x, q)
-		rhs.Mul(rhs, r)
-
-		x.Sub(lhs, rhs)
-
-		// x < 0
-		if x.Cmp(big.NewInt(0)) == -1 {
-			x.Add(x, m)
+		if x < 0 {
+			x += M
 		}
-		rand_seq = append(rand_seq, big.NewInt(0).Set(x))
+		rand_seq = append(rand_seq, x)
 	}
-	return rand_seq
+    return rand_seq
 }

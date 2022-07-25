@@ -1,32 +1,25 @@
 package rand3
 
 import (
-	"math/big"
 	"github.com/matumoto1234/ex11/rand2"
 )
 
-func Rand3(n int) []*big.Int {
-	x := big.NewInt(1)
-	next := big.NewInt(0)
-	a := rand2.Rand2(55)
-	rand_seq := make([]*big.Int, 0)
+func Rand3(n int) []int32 {
+	x := int32(1)
+	next := int32(0)
+	A := rand2.Rand2(55)
+	rand_seq := make([]int32, 0, n)
+
 	for i := 1; i <= n; i++ {
-		// j := (next + 31) % 55
-		j := big.NewInt(0)
-		j.Add(next, big.NewInt(31))
-		j.Mod(j, big.NewInt(55))
-
-		x.Sub(a[j.Int64()], a[next.Int64()])
-
-		// x < 0
-		if x.Cmp(big.NewInt(0)) == -1 {
-			x.Add(x, big.NewInt(2147483647))
-			x.Add(x, big.NewInt(1))
+		j := (next + 31) % 55
+		x = A[j] - A[next]
+		if x < 0 {
+			x += 2147483647
+			x += 1
 		}
-		a[next.Int64()] = x
-		next.Add(next, big.NewInt(1))
-		next.Mod(next, big.NewInt(55))
-		rand_seq = append(rand_seq, big.NewInt(0).Set(x))
+		A[next] = x
+		next = (next + 1) % 55
+		rand_seq = append(rand_seq, x)
 	}
-	return rand_seq
+    return rand_seq
 }

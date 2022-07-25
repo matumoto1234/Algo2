@@ -1,2 +1,2 @@
 # Algo2
-Algorithm &amp; Data structer 2
+Algorithm &amp; Data structure 2

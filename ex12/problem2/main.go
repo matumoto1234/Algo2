@@ -39,14 +39,24 @@ func makeRandomSlice(n int) []int {
 
 func compare(n int) {
 	fmt.Println("n:", n, "started.")
-	slice := makeRandomSlice(n)
 
-	r := measureSorting(slice[:], randomizedPivotIndex)
-	d := measureSorting(slice[:], deterministicPivotIndex)
+	sumR := time.Duration(0)
+	sumD := time.Duration(0)
 
-	fmt.Println("randomized:", r)
-	fmt.Println("deterministic:", d)
+	for i:=0;i<100;i++{
+		slice := makeRandomSlice(n)
+
+		r := measureSorting(slice[:], randomizedPivotIndex)
+		sumR += r
+
+		d := measureSorting(slice[:], deterministicPivotIndex)
+		sumD += d
+	}
+
+	fmt.Println("randomized:", sumR / 100)
+	fmt.Println("deterministic:", sumD / 100)
 	fmt.Println("n:", n, "ended.")
+	fmt.Print("\n")
 }
 
 func main() {
